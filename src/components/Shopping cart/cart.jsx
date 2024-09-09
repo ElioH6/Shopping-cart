@@ -45,7 +45,7 @@ function Cart() {
                 ) : (
                     <div className="flex flex-col sm:w-3/4 md:w-2/3 lg:w-1/2 mx-auto">
                         {cartItems.map((product) => (
-                            <div key={product.id} className="shadow-lg rounded-lg p-4 m-5 flex flex-col justify-between">
+                            <div key={product.id} className="shown-div">
                                 <div className="flex flex-col items-center mt-10">
                                     <img className="h-40 object-cover object-center" src={product.image} alt={product.title} />
                                     <h2 className="text-lg">{product.title}</h2>
