@@ -16,7 +16,7 @@ const router = createBrowserRouter([
     ]
   }
 ],
-  { basename: '/carts' }
+  { basename: '/Shopping-cart' }
 )
 
 createRoot(document.getElementById('root')).render(
