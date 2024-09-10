@@ -15,7 +15,9 @@ const router = createBrowserRouter([
       { path: 'cart', element: <Cart /> }
     ]
   }
-])
+],
+  { basename: '/carts' }
+)
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
